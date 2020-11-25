@@ -1,0 +1,212 @@
+.wrap{
+      border-bottom: 2px solid #ff6700;
+      height: 100px;
+}
+.header .logo{
+    float: left;
+	width: 62px;
+    margin-top: 22px;
+    margin-right: 35px;
+}
+.header h2{
+    float: left;
+    line-height: 48px;
+    margin-bottom: 0;
+    font-size: 28px;
+    color: #424242;
+    margin-top:22px;
+}
+.header h5{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 44px;
+    margin-left: 15px;
+    color: #757575;
+}
+.header .order{
+    float: right;
+    line-height: 20px;
+    margin-top: 44px;
+    margin-right: 15px;
+    a{
+        color: #757575;
+        padding:0 5px;
+        &:hover{
+            color:#ff6700;
+        }
+    }
+}
+.title{
+    height: 70px;
+    line-height: 70px;
+    padding-right: 26px;
+    color: #424242;
+    font-size: 16px;
+}
+.main-content{
+    padding: 38px 0;
+    background: #f5f5f5;
+    .main{
+        background-color:#fff;
+    }
+    input{
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        border: 1px solid #e0e0e0;
+        margin-left: 24px;
+    }
+    .allcheck{
+        margin-right: 150px;
+    }
+    .pro{
+        margin-right: 360px;
+    }
+    .price{
+        margin-right: 140px;
+    }
+    .count{
+        margin-right: 130px;
+    }
+    .total{
+        margin-right: 90px;
+
+    }
+}
+.list{
+    padding:0;
+    li{
+        padding: 15px 26px 15px 0;
+        border-top: 1px solid #e0e0e0;
+        overflow: hidden;
+        input{
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            border: 1px solid #e0e0e0;
+            margin-right: 50px;
+            float: left;
+            margin-top:36px
+        }
+        img{
+            width: 80px;
+            height: 80px; 
+            float: left;
+            margin-right:56px;
+        }
+        h3{
+            float: left;
+            line-height: 1;
+            line-height: 80px;
+            font-size: 18px;
+            font-weight: 400;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-right: 120px;
+        }
+        span{
+            float: left;
+            line-height: 1;
+            line-height: 80px;
+            font-size: 18px;
+            font-weight: 400;
+            margin-right: 134px;
+
+        }
+        p{
+            float: left;
+            line-height: 1;
+            line-height: 80px;
+            font-size: 18px;
+            font-weight: 400;
+            margin-right: 50px;
+        }
+        em{
+            float: left;
+            line-height: 1;
+            line-height: 80px;
+            font-size: 18px;
+            font-weight: 400;
+            width: 230px;
+            text-align: center;
+            color:#ff6700;
+        }
+        a{
+            float: left;
+            line-height: 1;
+            line-height: 80px;
+            font-size: 18px;
+            font-weight: 400;
+            cursor: pointer;
+            color: #424242;
+            &:hover{
+                color:#ff6700;
+            }
+        }
+    }
+}
+.total-price{
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+    padding-top:20px;
+    .left{
+       float:left;
+       a{
+        color: #757575;
+        line-height: 50px;
+        margin-left: 32px;
+       }
+       span{
+        margin-left: 16px;
+        padding-left: 16px;
+        border-left: 1px solid #eee;
+        color: #757575;
+        i{
+            color: #ff6700;
+        }
+       }
+    }
+    .right{
+        float: right;
+        span{
+            padding-left: 13px;
+            color: #ff6700;
+            em{
+                font-size: 30px;
+                padding-left:10px;
+            }
+        }
+        a{
+            display:inline-block;
+            width: 200px;
+            height: 48px;
+            line-height: 48px;
+            font-size: 18px;
+            margin-left: 50px;
+            background: #ff6700;
+            border-color: #ff6700;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
+.rela-pro{
+    background: #f5f5f5;
+    h2{
+        width: 482px;
+        line-height: 100px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        color: #757575;
+    }
+}

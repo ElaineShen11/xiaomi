@@ -14,6 +14,16 @@ async function img(){
   .pipe(dest('./dist/img'))
 }
 
+async function font(){
+  src('./font/*.*')
+  .pipe(dest('./dist/font'))
+}
+
+async function data(){
+  src('./data/*.*')
+  .pipe(dest('./dist/data'))
+}
+
 // 处理JS
 async function script(){
   src('./js/*.js')
@@ -36,6 +46,8 @@ async function sass(){
   .pipe(dest('./rev/css'))// 保存
 }
 
+
+
 // 处理html
 async function html(){
   return new Promise((resolve,reject)=>{
@@ -55,7 +67,9 @@ async function html(){
 task('build', async ()=>{
   await delDist()
   await img()
+  await font()
   await script()
   await sass()
   await html()
+  await data()
 })

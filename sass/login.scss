@@ -1,0 +1,125 @@
+.container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.login-main {
+    width: 100%;
+    height: 588px;
+    background: url(../img/333.jpg) no-repeat center;
+    background-size: cover;
+
+    .container {
+        padding-top: 32px;
+    }
+}
+
+.login-box {
+    width: 410px;
+    height: 556px;
+    background: #fff;
+    margin-left: 710px;
+
+    .box-top {
+        width: 410px;
+        height: 87px;
+
+        div {
+            padding: 27px 0 24px;
+            text-align: center;
+            font-size: 24px;
+            color: #666;
+
+            .now {
+                color: #ff6700;
+            }
+
+            span {
+                width: 1px;
+                height: 24px;
+                margin: 0 35px 0 42px;
+                border: 1px solid #e0e0e0;
+                background: #e0e0e0;
+            }
+        }
+    }
+}
+
+.login-arae {
+    width: 348px;
+    margin: 0 auto;
+    text-align: center;
+    .logbox {
+        width: 348px;
+        input {
+            margin: 0 auto;
+            width: 306px;
+            height: 22px;
+            line-height: 22px;
+            padding: 13px 16px 13px 14px;
+            display: block;
+            margin-bottom: 14px;
+        }
+
+        .login {
+            width: 348px;
+            height: 50px;
+            padding: 0;
+            background-color: #ff6700;
+            line-height: 50px;
+            margin-bottom: 14px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            outline:none;
+        }
+
+        p a{
+            display: block;
+            color: #ff6700;
+            margin-bottom: 30px;
+        }
+        div a{
+            color: #999;
+            &:hover{
+                color:  #ff6700;
+            }
+        }
+        div span{
+            color: #999;
+        }
+        .login-icon img{
+            height: 30px;
+            margin-top: 150px;
+        }
+    }
+}
+
+.login-footer {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 100px;
+
+    ul {
+        text-align: center;
+
+        li {
+            display: inline-block;
+
+            a {
+                padding: 0 10px;
+                color:#939393;
+            }
+        }
+    }
+
+    p {
+        padding: 10px;
+        color:#939393;
+        a{
+            color:#939393;
+        }
+    }
+}

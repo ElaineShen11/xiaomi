@@ -1,0 +1,107 @@
+.footer .footer-service{
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+    ul li{
+        float: left;
+        width: 19.8%;
+        height: 25px;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        border-left: 1px solid #e0e0e0;
+        a{
+            color: #616161;
+            &:hover{
+                color:#ff6700;
+            } 
+        }
+        .iconfont{
+            font-size: 24px;
+            margin-right: 6px;
+            line-height: 24px;
+            vertical-align: -4px;
+        }
+    }
+    .first{
+        border-left:0;
+    }
+}
+.footer .footer-links{
+    padding: 40px 0;
+    dl{
+        float: left;
+        width: 160px;
+        height: 112px;
+        dt{
+            margin-bottom: 26px;
+            font-size: 14px;
+            color: #424242;
+        }
+        dd{
+            font-size: 12px;
+            margin-top: 10px;
+            color: #757575;
+            cursor: pointer;
+            &:hover{
+                color:#ff6700;
+            }
+        }
+    }
+    .col-contact{
+        float: right;
+        width: 251px;
+        height: 112px;
+        border-left: 1px solid #e0e0e0;
+        text-align: center;
+        .iphone{
+            margin-bottom: 5px;
+            font-size: 22px;
+            color: #ff6700;
+        }
+        p{
+            margin-bottom: 16px;
+            font-size: 12px;
+            color:#616161;
+        }
+        a{
+            display: inline-block;
+            width: 118px;
+            height: 28px;
+            border: 1px solid #ff6700;
+            color: #ff6700;
+            font-size: 12px;
+            line-height: 28px;
+            transition: all .4s;
+            &:hover{
+                background-color: #ff6700;
+                color: #fff;
+            }
+        }
+    }
+}
+.footer .site-info{
+    padding: 30px 0;
+    height: 200px;
+    font-size: 12px;
+    background: #fafafa;
+    .logo{
+        float: left;
+        margin-right: 10px;
+    }
+    .info-text{
+        float: left;
+        color: #b0b0b0;
+        p{
+            margin: 0;
+            line-height: 18px; 
+            a{
+                color: #b0b0b0;
+            }
+        }
+    }
+    .info-links{
+        height: 28px;
+        margin: 4px 0 0;
+        padding-left: 67px;
+    }
+}
