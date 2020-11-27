@@ -46,12 +46,12 @@ var mySwiper = new Swiper ('.swiper-container', {
         $.each(json,function(index,item){
           goodsStr+=`<li>
             <div class="figure">
-                <a href="#">
+                <a href="./goodsList.html">
                     <img src="${item.imgurl}">
                 </a>
             </div>
             <h3 class="title">
-                <a href="#">
+                <a href="./goodsList.html">
                 ${item.shoppingname}
                 </a>
             </h3>

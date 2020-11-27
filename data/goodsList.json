@@ -1,0 +1,18 @@
+[
+    {"shoppingname":"Redmi 10X 5G","title":"双5G待机，天玑820处理器 ","imgurl":"img/img1.jpg","price":"1499","oprice":"1799元","code":"abc1"},
+
+    {"shoppingname":"小米10","title":"骁龙865/1亿像素相机  ","imgurl":"img/img2.jpg","price":"3799","oprice":"3999元","code":"abc2"},
+
+    {"shoppingname":"小米10 青春版 5G","title":"50倍潜望式变焦 / 轻薄5G手机  ","imgurl":"img/img3.jpg","price":"1999","oprice":"2299元","code":"abc3"},
+
+    {"shoppingname":"Redmi K30 Pro 变焦版","title":"双模5G，骁龙865，弹出全面屏  ","imgurl":"img/img4.jpg","price":"3199","oprice":"3799元","code":"abc4"},
+
+    {"shoppingname":"小米10至尊纪念版","title":"120X 变焦/120W秒充/120Hz屏幕  ","imgurl":"img/img5.jpg","price":"5299","code":"abc5"},
+
+    {"shoppingname":"Redmi K30 至尊纪念版","title":"120Hz弹出全面屏，天玑1000+旗舰处理器 ","imgurl":"img/img6.jpg","price":"1999","code":"abc6"},
+    
+    {"shoppingname":"Redmi Note 8","title":"千元4800万四摄 ","imgurl":"img/img7.jpg","price":"999","oprice":"1199元","code":"abc7"},
+
+    {"shoppingname":"Redmi 9A","title":"5000mAh长循环大电量，6.53'超大护眼屏幕 ","imgurl":"img/img8.jpg","price":"599","oprice":"","code":"abc8"}
+  
+]

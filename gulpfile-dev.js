@@ -38,7 +38,7 @@ task('html', async ()=>{
 
 //处理json数据
 task('data', async() => {
-  src('./data/*.json')
+  src('./data/*.*')
       .pipe(dest('./dist/data'))
       .pipe(load.connect.reload())
 })
@@ -58,7 +58,7 @@ task('watch', async ()=>{
   watch('./img/*.*',series('img'))
   watch('./font/*.*',series('font'))
   watch('./js/*.js',series('script'))
-  watch('./data/*.json', series('data'))
+  watch('./data/*.*', series('data'))
 })
 
 // 自动刷新服务

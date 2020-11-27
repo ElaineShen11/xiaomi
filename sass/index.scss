@@ -198,7 +198,7 @@
                 float: left;
                 width: 33.33%;
                 text-align: right;
-                transition: box-shadow .2s linear, -webkit-box-shadow .2s linear;
+                transition: box-shadow .2s linear;
                 a{
                     display: block;
                     height: 170px;
@@ -644,3 +644,60 @@
             transition: height .3s,-webkit-box-shadow .2s;
             transition: box-shadow .2s,height .3s;
             transition: box-shadow .2s,height .3s,-webkit-box-shadow .2s; }
+
+
+
+//
+
+.countdown{
+
+    float: left;
+    text-align: center;
+}
+
+.banner-right-box {
+    width: 234px;
+    height: 300px;
+    float: left;
+    margin-left: 14px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    background: #fff;
+    text-align: center;
+    padding-top: 39px;
+    transition: all .2s linear;
+    &:hover{
+        box-shadow: 0px 0px 25px  rgba(46,46,46,0.2); 
+        transform:translateY(-5px);
+      }
+
+    img {
+        display: block;
+        width: 160px;
+        margin: 0 auto 22px;
+    }
+
+    h4 {
+        margin: 0 20px 3px;
+        font-size: 14px;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        color: #212121;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .a1 {
+        height: 18px;
+        margin: 0 20px 12px;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        color: #b0b0b0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .yuan {
+        color: #ff6709;
+    }
+}
